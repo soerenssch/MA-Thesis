@@ -1,0 +1,18 @@
+test,quantity,estimate,p,stars
+Variance,Common (year) share of within-firm variation,0.20861232539653668,,
+Variance,Industry-timing share (FF48 × year minus placebo),0.027249812136220422,,
+Variance,Remaining within-firm share (upper bound on firm-specific),0.7641378624672429,,
+Variance,Transitory share of firm-specific changes (-2 rho),0.30335397802614145,,
+GPR timing,"GPR 3 months pre-filing, firm + year FE (per SD)",0.00037424562940512556,0.19588912273029388,
+GPR timing,"Same, December FYE only",0.0017324394761863554,0.07183557553491864,*
+Exposure DiD,Multinational (0/1) × post-2022 (levels),0.006856989080526051,7.64041947703494e-07,***
+Exposure DiD,Multinational (0/1) × post-2022 (log),-0.068481712002034,0.08700466220344828,*
+Exposure DiD,Foreign income share (1 SD) × post-2022 (levels),0.003656284849560323,0.000715742259772546,***
+Exposure DiD,Foreign income share (1 SD) × post-2022 (log),-0.013451225524115968,0.5411995988017917,
+Long difference,"Increase, domestic firms",0.013355623486433137,4.272767662538523e-53,***
+Long difference,"Extra increase, multinationals",0.006837502654952795,1.3739849550898071e-07,***
+Long difference,Common share of the average increase,0.7700552453217027,,
+Long difference,"Proportional increase, domestic firms",0.5253294720383206,,
+Long difference,"Proportional increase, multinationals",0.44525408635702923,,
+Filing date,Filed after 24 Feb 2022 (DiD vs FY2020),0.0003131781788439568,0.8653603392763914,
+Filing date,... extra for multinationals,0.006532294229202049,0.07028506568538506,*

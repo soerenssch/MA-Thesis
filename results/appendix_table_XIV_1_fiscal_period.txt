@@ -1,0 +1,9 @@
+Printed output of notebooks/07_External_Validation.ipynb, copied verbatim.
+
+gpr             fe  coef_per_sd     se      p     n  share_of_mean_intensity
+ GPR_z        firm FE       0.0079 0.0003 0.0000 10961                   0.1677
+ GPR_z firm + year FE      -0.0005 0.0007 0.4499 10961                  -0.0113
+GPRT_z        firm FE       0.0060 0.0002 0.0000 10961                   0.1261
+GPRT_z firm + year FE      -0.0002 0.0005 0.7105 10961                  -0.0040
+GPRA_z        firm FE       0.0088 0.0003 0.0000 10961                   0.1863
+GPRA_z firm + year FE      -0.0013 0.0010 0.2077 10961                  -0.0267

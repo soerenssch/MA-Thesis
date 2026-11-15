@@ -1,0 +1,8 @@
+,all firms,balanced panel
+firm FE share of total variance,0.7484280309947016,0.7339080735122865
+within-firm share of total variance,0.25157196900529843,0.2660919264877135
+common (year) share of within-firm variation,0.20861232539653668,0.2105654535667687
+industry-timing share (FF48 × year minus placebo),0.027249812136220422,0.02692768913438677
+placebo gain (mechanical),0.02720329580363956,0.03293561026473206
+"placebo gain, 95th percentile",0.03292098326338149,0.038595702793666274
+remaining within-firm share (firm-specific or noise),0.7641378624672429,0.7625068572988445

@@ -1,0 +1,37 @@
+Printed output of notebooks/05_NLP_pipeline.ipynb, copied verbatim.
+
+Table 4: Mean Geopolitical Risk Category Shares by Year
+(cross-sectional means; thin-denominator firm-years excluded)
+
+      Cat 1: Conflict & Terror  Cat 2: Interstate Tensions  \
+Year                                                         
+2018                     0.431                       0.062   
+2019                     0.407                       0.067   
+2020                     0.409                       0.074   
+2021                     0.412                       0.091   
+2022                     0.444                       0.176   
+2023                     0.435                       0.218   
+2024                     0.376                       0.216   
+2025                     0.314                       0.204   
+
+      Cat 3: Sanctions & Trade  Cat 4: Regime Risk  Cat 5: Reg. Sovereignty  \
+Year                                                                          
+2018                     0.443               0.173                    0.026   
+2019                     0.455               0.164                    0.027   
+2020                     0.444               0.176                    0.034   
+2021                     0.433               0.180                    0.044   
+2022                     0.364               0.161                    0.042   
+2023                     0.347               0.169                    0.050   
+2024                     0.432               0.160                    0.051   
+2025                     0.532               0.141                    0.048   
+
+      N firms  
+Year           
+2018      921  
+2019     1048  
+2020     1081  
+2021     1162  
+2022     1248  
+2023     1292  
+2024     1347  
+2025     1390

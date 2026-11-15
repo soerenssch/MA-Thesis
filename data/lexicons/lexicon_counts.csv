@@ -1,0 +1,13 @@
+lexicon,use,terms
+cat1_armed_conflict_terrorism,classification,49
+cat2_interstate_tensions,classification,36
+cat3_sanctions_trade,classification,51
+cat4_political_instability_regime,classification,50
+cat5_regulatory_sovereignty_technology,classification,74
+policy_channel,classification; specificity,40
+country_region_company,proximity rule (+/-15 tokens),34
+context_dependent,proximity rule only,52
+negative_modifiers,geo-tone; proximity anchor,60
+mitigation,geo-tone (subtracted),37
+hedging,uncertainty,42
+forward_looking,forward-lookingness,44

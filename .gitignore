@@ -1,0 +1,13 @@
+# Data: licensed (WRDS) or large intermediate files; see README, "Data"
+data/*
+!data/SP1500_CIK.csv
+!data/lexicons/
+
+# Notebook byproducts
+notebooks/*.csv
+notebooks/output/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

@@ -1,0 +1,50 @@
+Printed output of notebooks/05_NLP_pipeline.ipynb, copied verbatim.
+
+Annual GPR index (calendar-year mean of the monthly index):
+year
+2018     98.553
+2019     90.946
+2020     77.294
+2021     82.070
+2022    157.583
+2023    121.711
+2024    134.453
+2025    145.079
+
+Table 5: Category-level correlations with the GPR index, 2018-2025 (n = 8 years)
+                            Mean share  Pearson r  p-value  Spearman rho  \
+Cat 1: Conflict & Terror         0.403     -0.258    0.537         0.071   
+Cat 2: Interstate Tensions       0.138      0.830    0.011         0.548   
+Cat 3: Sanctions & Trade         0.431     -0.136    0.748        -0.286   
+Cat 4: Regime Risk               0.166     -0.761    0.028        -0.833   
+Cat 5: Reg. Sovereignty          0.040      0.586    0.127         0.429   
+
+                            p-value (rho)  
+Cat 1: Conflict & Terror            0.867  
+Cat 2: Interstate Tensions          0.160  
+Cat 3: Sanctions & Trade            0.493  
+Cat 4: Regime Risk                  0.010  
+Cat 5: Reg. Sovereignty             0.289  
+For the text: year-to-year changes (n = 7) and linearly detrended series (n = 8)
+                            r (changes)  p (changes)  r (detrended)  \
+Cat 1: Conflict & Terror          0.314        0.493          0.312   
+Cat 2: Interstate Tensions        0.542        0.209          0.621   
+Cat 3: Sanctions & Trade         -0.240        0.604         -0.279   
+Cat 4: Regime Risk               -0.726        0.065         -0.529   
+Cat 5: Reg. Sovereignty          -0.619        0.139         -0.322   
+
+                            p (detrended)  
+Cat 1: Conflict & Terror            0.452  
+Cat 2: Interstate Tensions          0.100  
+Cat 3: Sanctions & Trade            0.504  
+Cat 4: Regime Risk                  0.178  
+Cat 5: Reg. Sovereignty             0.437  
+Sanity check, mean intensity vs GPR (draft 3.5.2: r = 0.83, rho = 0.69, changes 0.87, detrended 0.78):
+Pearson r        0.832
+p-value          0.010
+Spearman rho     0.690
+p-value (rho)    0.058
+r (changes)      0.873
+p (changes)      0.010
+r (detrended)    0.784
+p (detrended)    0.021
