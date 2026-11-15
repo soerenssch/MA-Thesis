@@ -1,6 +1,6 @@
 # From Risk Factors to Risk Signals
 
-Code for the Master thesis "From Risk Factors to Risk Signals: A Text-Based Analysis of Geopolitical Risk Disclosure in 10-K Filings" (University of St. Gallen, 2026). The notebooks extract Item 1A (Risk Factors) from the 10-K filings of S&P 1500 firms for fiscal years 2018–2025 (10,962 firm-years, 1,488 firms), measure geopolitical risk disclosure with a lexicon-based NLP pipeline, validate the measures against LLM labels and the Caldara–Iacoviello GPR index, and estimate the models reported in the thesis. The notebooks are stored with the executed outputs reported in the thesis.
+Code for the Master thesis "From Risk Factors to Risk Signals: A Text-Based Analysis of Geopolitical Risk Disclosure in 10-K Filings". The notebooks extract Item 1A (Risk Factors) from the 10-K filings of S&P 1500 firms for fiscal years 2018–2025 (10,962 firm-years, 1,488 firms), measure geopolitical risk disclosure with a lexicon-based NLP pipeline, validate the measures against LLM labels and the Caldara–Iacoviello GPR index, and estimate the models reported in the thesis. The notebooks are stored with the executed outputs reported in the thesis.
 
 ## Pipeline
 
@@ -47,20 +47,16 @@ Code for the Master thesis "From Risk Factors to Risk Signals: A Text-Based Anal
 | Table XIV.1 | 07, Section 6 (fiscal-period rows); 06b, Section 2 (other rows) | `appendix_table_XIV_1_fiscal_period.txt`, `appendix_table_XIV_1_before_filing.csv` |
 | Table XIV.2 | 06b, Section 2b | `appendix_table_XIV_2.csv` |
 
-Tables 1, 2 and 15 contain no estimates. Files in `results/` are copies of the notebook exports in `output/` (or, for `.txt` files, of the printed cell output), renamed to the thesis numbering.
-
 ## Data
-
-Not included: Item 1A texts, NLP features and panels (size), and all WRDS data (licence).
 
 - SEC EDGAR filings: public; rebuilt by notebooks 00 and 01.
 - Compustat, CRSP, I/B/E/S, CRSP–Compustat link table: WRDS subscription required; pulled by notebook 04.
 - Caldara–Iacoviello GPR index: download `data_gpr_export.xls` from https://www.matteoiacoviello.com/gpr.htm to `data/validation/external/`.
-- Included: `data/SP1500_CIK.csv` (sample firms), `data/lexicons/` (all lexicons), `prompts/` (LLM validation prompt), `output/validation/v2/` (validation sample, packets and rater returns).
+- `data/SP1500_CIK.csv` (sample firms), `data/lexicons/` (all lexicons), `prompts/` (LLM validation prompt), `output/validation/v2/` (validation sample, packets and rater returns).
 
 ## Paths
 
-No paths were changed for this release. Notebooks 00, 01 and 03 use paths relative to the repository root (01 reads `SP1500_CIK.csv`, stored as `data/SP1500_CIK.csv`); notebooks 04–07 use paths relative to `notebooks/`. Export file names in `output/tables/` follow working numbers; `results/` uses the thesis numbering.
+Notebooks 00, 01 and 03 use paths relative to the repository root (01 reads `SP1500_CIK.csv`, stored as `data/SP1500_CIK.csv`); notebooks 04–07 use paths relative to `notebooks/`. Export file names in `output/tables/` follow working numbers; `results/` uses the thesis numbering.
 
 ## Installation
 
