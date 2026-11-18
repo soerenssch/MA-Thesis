@@ -70,7 +70,3 @@ Python 3.14 (notebooks 00–03: Python 3.12).
 ## Citation
 
 Schlißke, S. (2026). From Risk Factors to Risk Signals: A Text-Based Analysis of Geopolitical Risk Disclosure in 10-K Filings. Master's thesis, University of St. Gallen.
-
-## Licence
-
-MIT, see `LICENSE`.
